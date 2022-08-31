@@ -27,12 +27,19 @@
 }
 
 #slider{
-    height: 533px;
+    height: 475px;
 }
 
 #slider-content h1 {
     line-height: 2;
     font-size: 1.5rem;
+}
+#slider #prev, #slider #next{
+    z-index: 3;
+}
+
+#logo {
+    margin-left: 0;
 }
 
 /* services section */
@@ -55,7 +62,7 @@
   }
   
   #services .box p{
-    line-height: 13px;
+    line-height: 18px;
     font-size: 1rem;
   }
 
@@ -74,7 +81,7 @@
 }
 
 #client .name-img h2{
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     line-height: 30px;
 }
 
@@ -98,4 +105,8 @@
 
 
 /* footer */
+.footer-link {
+    font-size: 1.7rem;
+}
+
 
