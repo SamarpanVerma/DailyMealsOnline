@@ -9,6 +9,10 @@
     padding-bottom: 8px;
 }
 
+#navbar ul{
+    padding: 0;
+}
+
 /* Home section */
 #home{
     height: 370px;
@@ -26,9 +30,15 @@
     height: 533px;
 }
 
+#slider-content h1 {
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
 /* services section */
 #services{
     flex-direction: column;
+    margin-top: 0;
 }
 
 #services .box{
@@ -78,9 +88,11 @@
 
 /* utilities */
 .h-primary{
+    font-size: 2.2rem;
+}
+.h-secondary{
     font-size: 1.6rem;
 }
-
 
 /* contact */
 
