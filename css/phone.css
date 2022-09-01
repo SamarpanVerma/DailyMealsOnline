@@ -1,0 +1,118 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+    z-index: 4;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+#navbar ul{
+    padding: 0;
+}
+
+/* Home section */
+#home{
+    height: 370px;
+}
+
+#home::before{
+    height: 480px;
+}
+
+#home p{
+    font-size: 13px;
+}
+
+#slider{
+    height: 475px;
+}
+
+#slider-content h1 {
+    line-height: 2;
+    font-size: 1.5rem;
+}
+#slider #prev, #slider #next{
+    z-index: 3;
+}
+
+#logo {
+    margin-left: 0;
+}
+
+/* services section */
+#services{
+    flex-direction: column;
+    margin-top: 0;
+}
+
+#services .box{
+    width: 70%;
+}
+
+#services .box img{
+    height: 100px;
+}
+
+#services .box h2{
+    line-height: 22px;
+    font-size: 1.7rem;
+  }
+  
+  #services .box p{
+    line-height: 18px;
+    font-size: 1rem;
+  }
+
+/* client review */
+#client{
+    flex-direction: column;
+}
+
+#client .client-item{
+    width: 70%;
+}
+
+#client .client-item p{
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+#client .name-img h2{
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+#client-section {
+    height: 1253px;
+}
+
+#client .client-item img {
+    padding: 16px;
+}
+
+/* utilities */
+.h-primary{
+    font-size: 2.2rem;
+}
+.h-secondary{
+    font-size: 1.6rem;
+}
+
+/* contact */
+
+
+/* footer */
+.footer-link {
+    font-size: 1.7rem;
+}
+
+/* media query */
+@media screen and (max-width: 510px) {
+    #slider-content{
+      width: 392px;
+    }
+}
