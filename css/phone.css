@@ -110,4 +110,10 @@
     font-size: 1.7rem;
 }
 
+/* media query */
+@media screen and (max-width: 510px) {
+    #slider-content{
+      width: 392px;
+    }
+}
 
