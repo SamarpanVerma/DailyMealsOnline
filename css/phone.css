@@ -74,6 +74,7 @@
 
 #client .client-item{
     width: 70%;
+    margin: 36px auto;
 }
 
 #client .client-item p{
