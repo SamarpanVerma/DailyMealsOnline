@@ -1,6 +1,6 @@
 var responsiveSlider = function() {
   for(let i=0;i<5;i++){
-    document.querySelectorAll("#slideWrap img")[i].width = screen.width;
+    document.querySelectorAll("#slideWrap img")[i].width = "100%";
     }
     var slider = document.getElementById("slider");
     var sliderWidth = slider.offsetWidth;
